@@ -68,7 +68,7 @@ jobs:
       with:
          dockerfile: docker/queue-master/Dockerfile
          path: target/
-         registry: docker.io
+        # registry: docker.io
          image: charankatreddy/queue-master
          
          #push: true
