@@ -70,7 +70,8 @@ jobs:
          path: target/
          registry: docker.io
          image: charankatreddy/sockshop
-         #push: true
+       
+       #push: true
          #tags: charankatreddy/sockshop:shipping
           #tag_with_ref:true
           #tag_with_sha:true
